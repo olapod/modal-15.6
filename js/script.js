@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // here we will put the code of our application
-});
+
 
 //genereowanie losowego id 10 znaków
 function randomString() {
@@ -122,3 +122,5 @@ var card2 = new Card('Create kanban boards');
 // ADDING CARDS TO COLUMNS
 todoColumn.addCard(card1);
 doingColumn.addCard(card2);
+
+});
