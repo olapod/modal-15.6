@@ -33,7 +33,7 @@ function Column(id, name) {
             self.addCard(card);
           });
 
-        self.addCard(new Card(cardName));
+        // self.addCard(new Card(cardName));
       }
     });
   }
