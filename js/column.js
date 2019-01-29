@@ -23,7 +23,7 @@ function Column(id, name) {
         fetch(baseUrl + '/card', {
             method: 'POST',
             headers: myHeaders,
-            body: data,
+            body: data
           })
           .then(function(res) {
             return res.json();

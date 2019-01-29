@@ -25,7 +25,8 @@ Card.prototype = {
             return resp.json();
           })
           .then(function(resp) {
-            self.element.parentNode.removeChild(this.element);
+            self.element.parentNode.removeChild(self.element);
           })
       }
 }
+
